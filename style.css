@@ -1,18 +1,92 @@
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     body {
-        background-color: olive;
+      background-color: lightblue;
     }
+  }
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 98%;
+    background-color: crimson;
+    padding: 2vh;
+    text-align:right;
 }
-body {
-    background-color: blueviolet;
+.nav-text {
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+#welcome-section{
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+}
+.welcome {
+    height: 45vh;
+}
+#welcome-section > h1 {
+    margin: 0;
+    color:wheat;
+    font-size: 60px;
+    text-align:center;
+}
+#projects {
+    background-color: #45565D;
+    height: 100%;
+    width: 100%;
+}
+.gallery:hover {
+    border: solid  #45565D;
+}
+#projects {
+    padding: 96px 19px;
+}
+#projects > h2 {
+    margin: 0px 96px 57px;
+    text-align: center;
+    color:wheat;
+    font-size: 47px;
+    text-decoration: underline;
+    
+}
+.project-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.img-text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.img-text > a {
+    color: darkgrey;
+    text-decoration: none;
+}
+#contact {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.bottom > h1 {
+    margin: 0;
+    text-align: center;
+    color: wheat;
+    padding: 20px;
+    font-size: 47px;
+
 }
 
-#welcome-section {
-  height: 100vh;
+.contact-us {
+    text-align: center;
+    font-size: 23.04px;
+    padding: 9.6px 19.2px;
 }
-header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  right: 0;
+.contact-us > a {
+    padding: 3px;
+    color: whitesmoke;
+    text-decoration: none;
 }
