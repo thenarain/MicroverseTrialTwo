@@ -90,3 +90,6 @@
     color: whitesmoke;
     text-decoration: none;
 }
+body {
+    overflow-x: hidden;
+}
